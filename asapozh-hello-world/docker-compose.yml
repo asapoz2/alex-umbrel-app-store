@@ -1,14 +1,11 @@
-version: "3.7"
+version: "3.8"
 
 services:
-
-  app_proxy:
-    environment:
-      # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: asapozh-hello-world_server_1
-      APP_PORT: 3000
-    
-  server:
-    image: getumbrel/community-app-store-hello-world:latest
-    user: "1000:1000"
-    init: true
+  mediaorganizer:
+    build: /home/umbrel/umbrel/home/Documents/mediaorganizer/remoteserver
+    image: mediaorganizer:latest
+    container_name: mediaorganizer
+    restart: unless-stopped
+    volumes:
+      - /home/umbrel/umbrel/external/T9/Alex/Video/mac/:/data
+    command: ["/data", "J0hnyT00l"]
