@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: sparkles-hello-world
+id: asapozh-hello-world
 name: Hello World
 tagline: Replace this tagline with your app's tagline
 icon: https://svgur.com/i/mvA.svg
@@ -7,7 +7,7 @@ category: Development
 version: "1.0.0"
 port: 4000
 description: >-
-  Add your app's description here.
+  Alex's app for hello world.
 
 
   You can also add newlines!
@@ -16,7 +16,7 @@ developer: Umbrel
 website: https://umbrel.com
 submitter: Umbrel
 submission: https://github.com/getumbrel/umbrel-hello-world-app
-repo: https://github.com/getumbrel/umbrel-hello-world-app
+repo: https://github.com/asapoz2/alex-umbrel-app-store
 support: https://github.com/getumbrel/umbrel-hello-world-app/issues
 gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
